@@ -1,0 +1,79 @@
+/* En MovieDetails.css */
+
+.movie-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .movie-details-image-container {
+    margin: 20px auto; /* Ajusta el margen y utiliza auto para centrar horizontalmente */
+  }
+  
+  .movie-details-image {
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .movie-details-info {
+    max-width: 600px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .cast-carousel {
+    margin-top: 20px;
+  }
+  
+  .actor-item {
+    text-align: center;
+  }
+  
+  .actor-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+
+  /* En MovieDetails.css */
+
+.movie-details-image-container {
+    margin: 20px auto; /* Ajusta el margen y utiliza auto para centrar horizontalmente */
+  }
+  
+  .movie-details-image {
+    max-width: 236px;
+    margin-top: 200px; /* Agrega un margen superior para evitar que la imagen se vea recortada */
+    border-radius: 25px;
+    display: block;
+  }
+  
+  /* En MovieDetails.css */
+
+/* En MovieDetails.css */
+
+/* Estilos para las flechas del carrusel */
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -40px; /* Ajusta la posición a tu preferencia */
+}
+
+.slick-next {
+  right: -40px; /* Ajusta la posición a tu preferencia */
+}
